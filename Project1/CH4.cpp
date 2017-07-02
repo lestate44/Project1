@@ -1,14 +1,14 @@
-#include <iostream>
-#include <string>
-#include <vector>
-#include <bitset>
-using namespace std;
-
-
-void main()
-{
-
-	cout << "CH 4" << endl;
+//#include <iostream>
+//#include <string>
+//#include <vector>
+//#include <bitset>
+//using namespace std;
+//
+//
+//void main()
+//{
+//
+//	cout << "CH 4" << endl;
 //4.2
 	//vector<int> vec;
 	//vec.push_back(2);
@@ -104,5 +104,37 @@ void main()
 	//cout << sizeof p/sizeof *p<<endl;
 	//cout << *p;
 
+	//int i=0, j = 0;
+	//j = i++;
+	//cout << i << j;
 
-}
+
+	//cout << 1L;
+	//int x[10];
+	//x[0] = 5;
+	//cout << *x;
+	//int i = 4;
+	//
+	//const int *p = &i;
+	//i = 6;
+	//cout << *p;
+	//char z = 'z';
+	//const char* cp = &z;
+	//static_cast<string>(cp);
+	//cout << cp;
+
+
+//const int constant = 21;
+//int j = 3;
+//const int* const_p = &constant;
+//int* modifier = const_cast<int*>(const_p);
+//*modifier = 7;
+//const_p = &j;
+//cout << *modifier;
+
+
+
+
+
+
+//}
