@@ -1,0 +1,47 @@
+#include<iostream>
+#include<string>
+#include<vector>
+using namespace std;
+
+
+
+
+//7.1
+struct Sales_data {
+	string bookNO;
+	unsigned units_sold = 0;
+	double revenue;
+	string isbn() const { return bookNO; }
+};
+
+int main(void) {
+
+
+	cout << "CH7"<<endl;
+
+	//7.1
+	Sales_data total;
+	/*if (cin >> total.bookNO >> total.units_sold >> total.revenue)
+	{
+		Sales_data trans;
+		while (cin >> trans.bookNO >> trans.units_sold >> trans.revenue)
+		{
+			if (total.bookNO == trans.bookNO)
+			{
+				total.units_sold += trans.units_sold;
+				total.revenue += trans.revenue;
+			}
+			else
+			{
+				cout << total.bookNO << " " << total.units_sold << " " << total.revenue;
+			}
+
+		}
+	}
+	else
+		cout << "not data"<<endl;*/
+
+
+
+
+}

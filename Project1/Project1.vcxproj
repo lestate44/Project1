@@ -119,6 +119,20 @@
     <ClCompile Include="CH3.cpp" />
     <ClCompile Include="CH4.cpp" />
     <ClCompile Include="CH5.cpp" />
+    <ClCompile Include="CH6.cpp" />
+    <ClCompile Include="CH7.cpp" />
+    <ClCompile Include="fact.cpp" />
+    <ClCompile Include="LinkedList.cpp" />
+    <ClCompile Include="LinkedListTest.cpp" />
+    <ClCompile Include="StackTest.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CH7_Person.h" />
+    <ClInclude Include="CH7_Sales.h" />
+    <ClInclude Include="CH7_Screen.h" />
+    <ClInclude Include="Chapter6.h" />
+    <ClInclude Include="LinkedList.h" />
+    <ClInclude Include="Stack.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
