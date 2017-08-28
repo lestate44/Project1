@@ -121,9 +121,13 @@
     <ClCompile Include="CH5.cpp" />
     <ClCompile Include="CH6.cpp" />
     <ClCompile Include="CH7.cpp" />
+    <ClCompile Include="CH8.cpp" />
+    <ClCompile Include="CH9.cpp" />
     <ClCompile Include="fact.cpp" />
     <ClCompile Include="LinkedList.cpp" />
     <ClCompile Include="LinkedListTest.cpp" />
+    <ClCompile Include="Sort.cpp" />
+    <ClCompile Include="sorttest.cpp" />
     <ClCompile Include="StackTest.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -132,6 +136,8 @@
     <ClInclude Include="CH7_Screen.h" />
     <ClInclude Include="Chapter6.h" />
     <ClInclude Include="LinkedList.h" />
+    <ClInclude Include="Queue.h" />
+    <ClInclude Include="Sort.h" />
     <ClInclude Include="Stack.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

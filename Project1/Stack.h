@@ -9,7 +9,7 @@ class Stack {
 	struct node {
 		string c;
 		node* pt;
-		node(const string& ch):c(ch) {}
+		node(const string& ch) :c(ch) {};
 	};
 
 private:

@@ -1,3 +1,10 @@
-﻿  StackTest.cpp
+﻿  Sort.cpp
+c:\users\m4n231\documents\visual studio 2017\projects\project1\project1\sort.cpp(9): warning C4018: '<': signed/unsigned mismatch
+c:\users\m4n231\documents\visual studio 2017\projects\project1\project1\sort.cpp(11): warning C4018: '<': signed/unsigned mismatch
+c:\users\m4n231\documents\visual studio 2017\projects\project1\project1\sort.cpp(28): warning C4018: '<': signed/unsigned mismatch
+c:\users\m4n231\documents\visual studio 2017\projects\project1\project1\sort.cpp(50): warning C4018: '<': signed/unsigned mismatch
+c:\users\m4n231\documents\visual studio 2017\projects\project1\project1\sort.cpp(76): warning C4018: '<': signed/unsigned mismatch
+c:\users\m4n231\documents\visual studio 2017\projects\project1\project1\sort.cpp(176): warning C4554: '&': check operator precedence for possible error; use parentheses to clarify precedence
+c:\users\m4n231\documents\visual studio 2017\projects\project1\project1\sort.cpp(177): warning C4554: '&': check operator precedence for possible error; use parentheses to clarify precedence
   Project1.vcxproj -> C:\Users\M4N231\documents\visual studio 2017\Projects\Project1\Debug\Project1.exe
   Project1.vcxproj -> C:\Users\M4N231\documents\visual studio 2017\Projects\Project1\Debug\Project1.pdb (Partial PDB)
