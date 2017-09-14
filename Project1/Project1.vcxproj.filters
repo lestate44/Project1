@@ -60,6 +60,9 @@
     <ClCompile Include="CH9.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="CH10.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Chapter6.h">
@@ -84,6 +87,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Sort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CH10.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

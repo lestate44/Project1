@@ -115,6 +115,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="CH1.cpp" />
+    <ClCompile Include="CH10.cpp" />
     <ClCompile Include="CH2.cpp" />
     <ClCompile Include="CH3.cpp" />
     <ClCompile Include="CH4.cpp" />
@@ -131,6 +132,7 @@
     <ClCompile Include="StackTest.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CH10.h" />
     <ClInclude Include="CH7_Person.h" />
     <ClInclude Include="CH7_Sales.h" />
     <ClInclude Include="CH7_Screen.h" />

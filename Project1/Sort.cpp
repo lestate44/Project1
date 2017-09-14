@@ -135,8 +135,8 @@ void divide(vector<int>& v, int left, int right) {
 void msort(vector<int>& v, int left,int right) {
 	if (left < right) {
 		int middle = (left + right) / 2;
-		divide(v, left, middle);
-		divide(v, middle + 1, right);
+		msort(v, left, middle);
+		msort(v, middle + 1, right);
 		//below is: merge(v, left, center, right, right-left+1);
 		vector<int> temp(right - left + 1);
 		int i = left, j = middle + 1, k = 0;
@@ -173,7 +173,7 @@ void quicksort(vector<int>& v, int low, int high) {
 	if (low < high) {
 		int k = v[low], i = low, j = high;
 		while (i < j) {
-			while (v[j] >= k&i<j)--j;
+			while (v[j] >= k & i<j)--j;
 			while (v[i] <= k&i<j)++i;
 			if (i == j)break;
 			int temp = v[i];
