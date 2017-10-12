@@ -116,6 +116,7 @@
   <ItemGroup>
     <ClCompile Include="CH1.cpp" />
     <ClCompile Include="CH10.cpp" />
+    <ClCompile Include="CH11.cpp" />
     <ClCompile Include="CH2.cpp" />
     <ClCompile Include="CH3.cpp" />
     <ClCompile Include="CH4.cpp" />
@@ -125,6 +126,8 @@
     <ClCompile Include="CH8.cpp" />
     <ClCompile Include="CH9.cpp" />
     <ClCompile Include="fact.cpp" />
+    <ClCompile Include="family.cpp" />
+    <ClCompile Include="leetcode.cpp" />
     <ClCompile Include="LinkedList.cpp" />
     <ClCompile Include="LinkedListTest.cpp" />
     <ClCompile Include="Sort.cpp" />
@@ -133,10 +136,13 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CH10.h" />
+    <ClInclude Include="CH11.h" />
     <ClInclude Include="CH7_Person.h" />
     <ClInclude Include="CH7_Sales.h" />
     <ClInclude Include="CH7_Screen.h" />
     <ClInclude Include="Chapter6.h" />
+    <ClInclude Include="family.h" />
+    <ClInclude Include="leetcode.h" />
     <ClInclude Include="LinkedList.h" />
     <ClInclude Include="Queue.h" />
     <ClInclude Include="Sort.h" />

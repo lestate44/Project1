@@ -63,6 +63,15 @@
     <ClCompile Include="CH10.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="CH11.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="leetcode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="family.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Chapter6.h">
@@ -90,6 +99,15 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="CH10.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CH11.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="leetcode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="family.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
