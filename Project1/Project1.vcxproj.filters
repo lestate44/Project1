@@ -72,6 +72,12 @@
     <ClCompile Include="family.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="CH12.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="snake.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Chapter6.h">
@@ -108,6 +114,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="family.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CH12.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
