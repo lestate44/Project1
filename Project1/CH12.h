@@ -11,6 +11,7 @@ using namespace std;
 
 class strblob {
 public:
+	friend class StrBlobPtr;
 	typedef vector<string>::size_type size_type;
 	strblob();
 	strblob(initializer_list<string> il);
@@ -20,6 +21,8 @@ public:
 	void pop_back();
 	const string& front();
 	const string& back();
+	StrBlobPtr begin();
+	StrBlobPtr end();
 
 private:
 	shared_ptr<vector<string>> data;
@@ -41,6 +44,8 @@ void strblob::check(size_type i, const string& msg) const {
 	if (i >= data->size())
 		throw out_of_range(msg);
 }
+
+
 
 const string& strblob::front() {
 	check(0, "front on empty strblob");
@@ -98,6 +103,68 @@ void spt(shared_ptr<vector<int>> p) {
 		cout << v << endl;
 	return;
 }
+
+
+
+
+class StrBlobPtr 
+{
+private:
+	shared_ptr<vector<string>> check(size_t, const string&) const;
+	weak_ptr<vector<string>> wptr;
+	size_t curr;
+public:
+	StrBlobPtr():curr(0) {};
+	StrBlobPtr(strblob &a, size_t sz = 0) :wptr(a.data), curr(sz) {};
+	string& deref() const;
+	StrBlobPtr& incr();
+	bool operator != (const StrBlobPtr& p) { return p.curr != curr; }
+
+};
+
+
+shared_ptr<vector<string>> StrBlobPtr::check(size_t i, const string& msg) const {
+	auto ret = wptr.lock();
+	if (!ret)
+		throw runtime_error("unbound StrBlobPtr");
+	if (i >= ret->size())
+		throw out_of_range(msg);
+	return ret;
+
+}
+
+string& StrBlobPtr::deref() const {
+	auto p = check(curr, "dereference past end");
+	return (*p)[curr];
+}
+
+
+StrBlobPtr& StrBlobPtr::incr()
+{
+	check(curr, "increment past end of StrBlobPtr");
+	++curr;
+	return *this;
+
+}
+
+
+
+StrBlobPtr strblob::begin() 
+{
+	return StrBlobPtr(*this);
+}
+
+StrBlobPtr strblob::end() 
+{
+	auto ret = StrBlobPtr(*this, data->size());
+	return ret;
+}
+
+
+
+
+
+
 
 
 
