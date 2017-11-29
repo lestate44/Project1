@@ -4,7 +4,7 @@
 #include <conio.h> 
 #include <new>
 #include <fstream>
-#include "TextSearch.h"
+#include "TSearch.h"
 using namespace std;
 
 
@@ -168,9 +168,10 @@ void main(void) {
 	
 
 
-	ifstream ifs("C:/Users/M4N231/Desktop/test.txt");
-	runQueries(ifs);
+	//ifstream ifs("C:/Users/M4N231/Desktop/test.txt");
+	//runQueries(ifs);
 
+	
 	
 
 

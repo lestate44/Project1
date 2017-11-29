@@ -138,6 +138,7 @@
     <ClCompile Include="sorttest.cpp" />
     <ClCompile Include="StackTest.cpp" />
     <ClCompile Include="TextSearch.cpp" />
+    <ClCompile Include="Tsearch.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CH10.h" />
@@ -154,6 +155,7 @@
     <ClInclude Include="Sort.h" />
     <ClInclude Include="Stack.h" />
     <ClInclude Include="TextSearch.h" />
+    <ClInclude Include="TSearch.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
