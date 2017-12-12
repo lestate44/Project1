@@ -84,6 +84,9 @@
     <ClCompile Include="Tsearch.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="CH13.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Chapter6.h">
@@ -129,6 +132,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="TSearch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CH13.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

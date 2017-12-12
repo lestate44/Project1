@@ -120,6 +120,7 @@
     <ClCompile Include="CH10.cpp" />
     <ClCompile Include="CH11.cpp" />
     <ClCompile Include="CH12.cpp" />
+    <ClCompile Include="CH13.cpp" />
     <ClCompile Include="CH2.cpp" />
     <ClCompile Include="CH3.cpp" />
     <ClCompile Include="CH4.cpp" />
@@ -144,6 +145,7 @@
     <ClInclude Include="CH10.h" />
     <ClInclude Include="CH11.h" />
     <ClInclude Include="CH12.h" />
+    <ClInclude Include="CH13.h" />
     <ClInclude Include="CH7_Person.h" />
     <ClInclude Include="CH7_Sales.h" />
     <ClInclude Include="CH7_Screen.h" />
