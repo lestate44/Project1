@@ -19,7 +19,11 @@ public:
 		i = hp.i;
 		return *this;
 	}
-	void show() { cout << *ps<<"at: "<<ps; }
+	void show() { cout << *ps<<" at: "<<ps; }
+	~HasPtr()
+	{
+		delete ps;
+	}
 
 private:
 	string *ps;

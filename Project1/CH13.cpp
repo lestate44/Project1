@@ -33,14 +33,17 @@ void main(void)
 
 
 //13.18
-	Employee a("this");
-	Employee b;
-	b = a;
-	b.getid();
-	a.getid();
-	b.getname();
-	a.getname();
+	//Employee a("this");
+	//Employee b;
+	//b = a;
+	//b.getid();
+	//a.getid();
+	//b.getname();
+	//a.getname();
 
+
+	HasPtr pt("s");
+	pt.show();
 
 
 
