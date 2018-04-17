@@ -18,3 +18,10 @@ int hamingdistance(int a, int b){
 	}
 	return count;
 }
+
+
+struct ListNode {
+	int val;
+	ListNode* next;
+	ListNode(int x) :val(x), next(NULL) {}
+};
