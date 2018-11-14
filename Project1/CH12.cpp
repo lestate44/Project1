@@ -47,11 +47,11 @@ void main(void) {
 
 
 //12.3
-	strblob s({ "a" });
+	//strblob s({ "a" });
 	//system("pause");
-	string a("dd");
+	//string a("dd");
 	//s.push_back(a);
-	cout << s.front();
+	//cout << s.front();
 
 	//int *p = new int;
 	//cout << *p;
@@ -184,7 +184,9 @@ void main(void) {
 //cout << q.use_count();
 
 
-
+int i = 1;
+cout << ++i << endl;
+cout << i;
 
 
 
